@@ -17,7 +17,7 @@ const router = createBrowserRouter([
 
 export function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={Theme}>
       <RouterProvider router={router} />
       <GlobalStyle />
     </ThemeProvider>
